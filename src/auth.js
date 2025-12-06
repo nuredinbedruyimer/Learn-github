@@ -1,4 +1,5 @@
 // auth.js
-export function login(user) {
-  return user === "admin";
+export function login(userName) {
+  processedName = userName.toUpperCase();
+  return processedName;
 }
